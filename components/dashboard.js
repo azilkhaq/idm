@@ -132,7 +132,7 @@ const Dashboard = () => {
               </Link>
             </div>
             <div>
-              <Link href="/eSim">
+              <Link href="/eSIm">
                 <p className="text-lg md:text-xl">eSim</p>
               </Link>
             </div>
