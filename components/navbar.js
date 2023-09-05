@@ -11,9 +11,9 @@ const Navbar = () => {
   return (
     <nav className="bg-blue-tua">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="/" className="flex items-center">
+        <Link href="/" className="flex items-center">
           <img src="images/IDM Logo.png" className="h-8 mr-3" alt="IDM Logo" />
-        </a>
+        </Link>
         <button
           onClick={toggleNavbar}
           className="md:hidden inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white-500 rounded-lg hover:bg-red-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
