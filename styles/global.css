@@ -3,11 +3,19 @@
   @tailwind utilities;
 
   @layer base {
-      html,
-      body {
-        background-color: #001f3f;
-        color: white;
+
+    html,
+    body {
+      background-color: #001f3f;
+      color: white;
     }
   }
 
-  
+  @media (min-width: 768px) {
+  }
+
+  @media (max-width: 767px) {
+    #navbar-default ul {
+      flex-direction: column;
+    }
+  }

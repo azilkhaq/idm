@@ -26,7 +26,7 @@ const vrbt = () => {
                         </ul>
                     </div>
                     {/* Kolom Gambar */}
-                    <div className="w-1\0 h-100">
+                    <div className="w-1\2 h-100">
                         <img src="/images/vrbt.png" alt="Game SpeedUP" className="w-full h-full" />
                     </div>
                 </div>
